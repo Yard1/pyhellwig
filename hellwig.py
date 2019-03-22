@@ -4,6 +4,7 @@ import math
 import argparse
 import numpy as np
 import pandas as pd
+import collections
 from tqdm import tqdm
 from joblib import Parallel, delayed
 from operator import itemgetter
